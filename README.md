@@ -2,7 +2,8 @@
 
 # program-puzzle-prize
 
-![TORCHED H34R7S](https://video-images.vice.com/articles/5a751340f9fa9a4fe5250b5f/lede/1517622121322-1FLAMEN6.jpeg)
+![TORCHED H34R7S](https://video-images.vice.com/articles/5a751340f9fa9a4fe5250b5f/lede/1517622121322-1FLAMEN6.jpeg?crop=1xw:0.75xh;center,center&resize=500:*)
+
 This is inspired by the famous bitcoin puzzle painting ['TORCHED H34R7S'](https://www.vice.com/en/article/kzpqzz/heres-the-solution-to-the-3-year-old-dollar50000-bitcoin-puzzle)
 
 The program configuration contains a string description of the puzzle to be solved, eg: 'What is the meaning of life?'. This could also be a URL to some more elaborate puzzle.
