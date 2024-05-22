@@ -1,4 +1,4 @@
-//! No-op program
+//! Puzzle prize program
 
 #![cfg_attr(not(feature = "std"), no_std)]
 
@@ -84,7 +84,7 @@ impl Program for ProgramPuzzlePrize {
 
         // Attempt to decrypt the encrypted_solution with encrypted_solution
         let cipher = ChaCha20Poly1305::new(&hash);
-        let nonce_arr: [u8; 16] = [0; 16];
+        let nonce_arr: [u8; 12] = [0; 12];
         let nonce = GenericArray::from_slice(&nonce_arr[..]);
         if cipher.decrypt(&nonce, encrypted_solution.as_ref()).is_err() {
             return Err(Error::Evaluation(
